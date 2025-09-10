@@ -1,8 +1,8 @@
 import "./App.css";
-import { HomePage } from "./pages";
+import { NavigationProvider } from "./providers";
 
 function App() {
-  return <HomePage />;
+  return <NavigationProvider />;
 }
 
 export default App;
